@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42C7CB6924C6152200AB2512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7CB6824C6152200AB2512 /* AppDelegate.swift */; };
+		42C7CB6B24C6152200AB2512 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7CB6A24C6152200AB2512 /* SceneDelegate.swift */; };
+		42C7CB6D24C6152200AB2512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7CB6C24C6152200AB2512 /* ViewController.swift */; };
+		42C7CB7024C6152200AB2512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C7CB6E24C6152200AB2512 /* Main.storyboard */; };
+		42C7CB7224C6152500AB2512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C7CB7124C6152500AB2512 /* Assets.xcassets */; };
+		42C7CB7524C6152500AB2512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C7CB7324C6152500AB2512 /* LaunchScreen.storyboard */; };
+		42C7CB8024C6152500AB2512 /* Reto_5___Que_personaje_eresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7CB7F24C6152500AB2512 /* Reto_5___Que_personaje_eresTests.swift */; };
+		42C7CB8B24C6152500AB2512 /* Reto_5___Que_personaje_eresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7CB8A24C6152500AB2512 /* Reto_5___Que_personaje_eresUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42C7CB7C24C6152500AB2512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C7CB5D24C6152200AB2512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C7CB6424C6152200AB2512;
+			remoteInfo = "Reto 5 - Que personaje eres";
+		};
+		42C7CB8724C6152500AB2512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C7CB5D24C6152200AB2512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C7CB6424C6152200AB2512;
+			remoteInfo = "Reto 5 - Que personaje eres";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42C7CB6524C6152200AB2512 /* Reto 5 - Que personaje eres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reto 5 - Que personaje eres.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C7CB6824C6152200AB2512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42C7CB6A24C6152200AB2512 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42C7CB6C24C6152200AB2512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42C7CB6F24C6152200AB2512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42C7CB7124C6152500AB2512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42C7CB7424C6152500AB2512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42C7CB7624C6152500AB2512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C7CB7B24C6152500AB2512 /* Reto 5 - Que personaje eresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reto 5 - Que personaje eresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C7CB7F24C6152500AB2512 /* Reto_5___Que_personaje_eresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reto_5___Que_personaje_eresTests.swift"; sourceTree = "<group>"; };
+		42C7CB8124C6152500AB2512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C7CB8624C6152500AB2512 /* Reto 5 - Que personaje eresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reto 5 - Que personaje eresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C7CB8A24C6152500AB2512 /* Reto_5___Que_personaje_eresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reto_5___Que_personaje_eresUITests.swift"; sourceTree = "<group>"; };
+		42C7CB8C24C6152500AB2512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C7CB6224C6152200AB2512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C7CB7824C6152500AB2512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C7CB8324C6152500AB2512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C7CB5C24C6152200AB2512 = {
+			isa = PBXGroup;
+			children = (
+				42C7CB6724C6152200AB2512 /* Reto 5 - Que personaje eres */,
+				42C7CB7E24C6152500AB2512 /* Reto 5 - Que personaje eresTests */,
+				42C7CB8924C6152500AB2512 /* Reto 5 - Que personaje eresUITests */,
+				42C7CB6624C6152200AB2512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42C7CB6624C6152200AB2512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C7CB6524C6152200AB2512 /* Reto 5 - Que personaje eres.app */,
+				42C7CB7B24C6152500AB2512 /* Reto 5 - Que personaje eresTests.xctest */,
+				42C7CB8624C6152500AB2512 /* Reto 5 - Que personaje eresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C7CB6724C6152200AB2512 /* Reto 5 - Que personaje eres */ = {
+			isa = PBXGroup;
+			children = (
+				42C7CB6824C6152200AB2512 /* AppDelegate.swift */,
+				42C7CB6A24C6152200AB2512 /* SceneDelegate.swift */,
+				42C7CB6C24C6152200AB2512 /* ViewController.swift */,
+				42C7CB6E24C6152200AB2512 /* Main.storyboard */,
+				42C7CB7124C6152500AB2512 /* Assets.xcassets */,
+				42C7CB7324C6152500AB2512 /* LaunchScreen.storyboard */,
+				42C7CB7624C6152500AB2512 /* Info.plist */,
+			);
+			path = "Reto 5 - Que personaje eres";
+			sourceTree = "<group>";
+		};
+		42C7CB7E24C6152500AB2512 /* Reto 5 - Que personaje eresTests */ = {
+			isa = PBXGroup;
+			children = (
+				42C7CB7F24C6152500AB2512 /* Reto_5___Que_personaje_eresTests.swift */,
+				42C7CB8124C6152500AB2512 /* Info.plist */,
+			);
+			path = "Reto 5 - Que personaje eresTests";
+			sourceTree = "<group>";
+		};
+		42C7CB8924C6152500AB2512 /* Reto 5 - Que personaje eresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42C7CB8A24C6152500AB2512 /* Reto_5___Que_personaje_eresUITests.swift */,
+				42C7CB8C24C6152500AB2512 /* Info.plist */,
+			);
+			path = "Reto 5 - Que personaje eresUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C7CB6424C6152200AB2512 /* Reto 5 - Que personaje eres */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C7CB8F24C6152500AB2512 /* Build configuration list for PBXNativeTarget "Reto 5 - Que personaje eres" */;
+			buildPhases = (
+				42C7CB6124C6152200AB2512 /* Sources */,
+				42C7CB6224C6152200AB2512 /* Frameworks */,
+				42C7CB6324C6152200AB2512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reto 5 - Que personaje eres";
+			productName = "Reto 5 - Que personaje eres";
+			productReference = 42C7CB6524C6152200AB2512 /* Reto 5 - Que personaje eres.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42C7CB7A24C6152500AB2512 /* Reto 5 - Que personaje eresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C7CB9224C6152500AB2512 /* Build configuration list for PBXNativeTarget "Reto 5 - Que personaje eresTests" */;
+			buildPhases = (
+				42C7CB7724C6152500AB2512 /* Sources */,
+				42C7CB7824C6152500AB2512 /* Frameworks */,
+				42C7CB7924C6152500AB2512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C7CB7D24C6152500AB2512 /* PBXTargetDependency */,
+			);
+			name = "Reto 5 - Que personaje eresTests";
+			productName = "Reto 5 - Que personaje eresTests";
+			productReference = 42C7CB7B24C6152500AB2512 /* Reto 5 - Que personaje eresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42C7CB8524C6152500AB2512 /* Reto 5 - Que personaje eresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C7CB9524C6152500AB2512 /* Build configuration list for PBXNativeTarget "Reto 5 - Que personaje eresUITests" */;
+			buildPhases = (
+				42C7CB8224C6152500AB2512 /* Sources */,
+				42C7CB8324C6152500AB2512 /* Frameworks */,
+				42C7CB8424C6152500AB2512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C7CB8824C6152500AB2512 /* PBXTargetDependency */,
+			);
+			name = "Reto 5 - Que personaje eresUITests";
+			productName = "Reto 5 - Que personaje eresUITests";
+			productReference = 42C7CB8624C6152500AB2512 /* Reto 5 - Que personaje eresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C7CB5D24C6152200AB2512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = UVEG;
+				TargetAttributes = {
+					42C7CB6424C6152200AB2512 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					42C7CB7A24C6152500AB2512 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 42C7CB6424C6152200AB2512;
+					};
+					42C7CB8524C6152500AB2512 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 42C7CB6424C6152200AB2512;
+					};
+				};
+			};
+			buildConfigurationList = 42C7CB6024C6152200AB2512 /* Build configuration list for PBXProject "Reto 5 - Que personaje eres" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42C7CB5C24C6152200AB2512;
+			productRefGroup = 42C7CB6624C6152200AB2512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C7CB6424C6152200AB2512 /* Reto 5 - Que personaje eres */,
+				42C7CB7A24C6152500AB2512 /* Reto 5 - Que personaje eresTests */,
+				42C7CB8524C6152500AB2512 /* Reto 5 - Que personaje eresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C7CB6324C6152200AB2512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C7CB7524C6152500AB2512 /* LaunchScreen.storyboard in Resources */,
+				42C7CB7224C6152500AB2512 /* Assets.xcassets in Resources */,
+				42C7CB7024C6152200AB2512 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C7CB7924C6152500AB2512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C7CB8424C6152500AB2512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C7CB6124C6152200AB2512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C7CB6D24C6152200AB2512 /* ViewController.swift in Sources */,
+				42C7CB6924C6152200AB2512 /* AppDelegate.swift in Sources */,
+				42C7CB6B24C6152200AB2512 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C7CB7724C6152500AB2512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C7CB8024C6152500AB2512 /* Reto_5___Que_personaje_eresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C7CB8224C6152500AB2512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C7CB8B24C6152500AB2512 /* Reto_5___Que_personaje_eresUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42C7CB7D24C6152500AB2512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C7CB6424C6152200AB2512 /* Reto 5 - Que personaje eres */;
+			targetProxy = 42C7CB7C24C6152500AB2512 /* PBXContainerItemProxy */;
+		};
+		42C7CB8824C6152500AB2512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C7CB6424C6152200AB2512 /* Reto 5 - Que personaje eres */;
+			targetProxy = 42C7CB8724C6152500AB2512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42C7CB6E24C6152200AB2512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C7CB6F24C6152200AB2512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42C7CB7324C6152500AB2512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C7CB7424C6152500AB2512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42C7CB8D24C6152500AB2512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42C7CB8E24C6152500AB2512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42C7CB9024C6152500AB2512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reto 5 - Que personaje eres/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uveg.esalazar.Reto-5---Que-personaje-eres";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42C7CB9124C6152500AB2512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reto 5 - Que personaje eres/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uveg.esalazar.Reto-5---Que-personaje-eres";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42C7CB9324C6152500AB2512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reto 5 - Que personaje eresTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uveg.esalazar.Reto-5---Que-personaje-eresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reto 5 - Que personaje eres.app/Reto 5 - Que personaje eres";
+			};
+			name = Debug;
+		};
+		42C7CB9424C6152500AB2512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reto 5 - Que personaje eresTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uveg.esalazar.Reto-5---Que-personaje-eresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reto 5 - Que personaje eres.app/Reto 5 - Que personaje eres";
+			};
+			name = Release;
+		};
+		42C7CB9624C6152500AB2512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reto 5 - Que personaje eresUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uveg.esalazar.Reto-5---Que-personaje-eresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reto 5 - Que personaje eres";
+			};
+			name = Debug;
+		};
+		42C7CB9724C6152500AB2512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reto 5 - Que personaje eresUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uveg.esalazar.Reto-5---Que-personaje-eresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reto 5 - Que personaje eres";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42C7CB6024C6152200AB2512 /* Build configuration list for PBXProject "Reto 5 - Que personaje eres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C7CB8D24C6152500AB2512 /* Debug */,
+				42C7CB8E24C6152500AB2512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C7CB8F24C6152500AB2512 /* Build configuration list for PBXNativeTarget "Reto 5 - Que personaje eres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C7CB9024C6152500AB2512 /* Debug */,
+				42C7CB9124C6152500AB2512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C7CB9224C6152500AB2512 /* Build configuration list for PBXNativeTarget "Reto 5 - Que personaje eresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C7CB9324C6152500AB2512 /* Debug */,
+				42C7CB9424C6152500AB2512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C7CB9524C6152500AB2512 /* Build configuration list for PBXNativeTarget "Reto 5 - Que personaje eresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C7CB9624C6152500AB2512 /* Debug */,
+				42C7CB9724C6152500AB2512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C7CB5D24C6152200AB2512 /* Project object */;
+}

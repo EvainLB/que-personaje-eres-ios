@@ -1,0 +1,77 @@
+# Compila la app "¿Qué personaje eres?" en una Mac de GitHub, ejecuta la prueba
+# de interfaz en un simulador de iPhone y guarda las capturas de pantalla.
+name: iOS - Compilar y probar
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  compilar-y-probar:
+    runs-on: macos-15
+    timeout-minutes: 30
+    env:
+      PROYECTO: "Reto 5 - Que personaje eres.xcodeproj"
+      ESQUEMA: "Reto 5 - Que personaje eres"
+
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Mostrar versión de Xcode
+        run: xcodebuild -version
+
+      - name: Elegir un simulador de iPhone
+        id: simulador
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          dispositivos = json.load(sys.stdin)["devices"]
+          iphones = [d for rt, lista in dispositivos.items() if "iOS" in rt
+                     for d in lista if d["name"].startswith("iPhone")]
+          preferidos = [d for d in iphones if d["name"] == "iPhone 16"] or iphones
+          print(preferidos[-1]["udid"])
+          ')
+          echo "Simulador elegido: $UDID"
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
+
+      - name: Compilar la app
+        run: |
+          xcodebuild build \
+            -project "$PROYECTO" \
+            -scheme "$ESQUEMA" \
+            -destination "id=${{ steps.simulador.outputs.udid }}"
+
+      - name: Ejecutar pruebas con capturas de pantalla
+        run: |
+          xcodebuild test \
+            -project "$PROYECTO" \
+            -scheme "$ESQUEMA" \
+            -destination "id=${{ steps.simulador.outputs.udid }}" \
+            -resultBundlePath Resultados.xcresult
+
+      - name: Extraer las capturas
+        if: always()
+        run: |
+          mkdir -p Capturas
+          xcrun xcresulttool export attachments --path Resultados.xcresult --output-path Capturas || true
+          # Renombra cada imagen con el nombre que le dio la prueba (1_Inicio, 2_Primer_dato, ...)
+          python3 - <<'PY'
+          import json, os
+          ruta = "Capturas/manifest.json"
+          if os.path.exists(ruta):
+              for prueba in json.load(open(ruta)):
+                  for adj in prueba.get("attachments", []):
+                      origen = os.path.join("Capturas", adj["exportedFileName"])
+                      nombre = adj.get("suggestedHumanReadableName", adj["exportedFileName"])
+                      if os.path.exists(origen):
+                          os.rename(origen, os.path.join("Capturas", nombre))
+          PY
+          ls -la Capturas
+
+      - name: Subir capturas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capturas-que-personaje-eres
+          path: Capturas

@@ -1,0 +1,6 @@
+xcuserdata/
+DerivedData/
+build/
+*.xcresult
+Capturas/
+.DS_Store
